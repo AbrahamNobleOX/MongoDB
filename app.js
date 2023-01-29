@@ -3,8 +3,6 @@ const MongoClient = require("mongodb").MongoClient;
 
 const app = express();
 
-// const url = "mongodb+srv://noblexeyi:abram1993@cluster0.immvp.mongodb.net/test";
-
 const url = "mongodb://localhost:27017/";
 
 MongoClient.connect(url, (err, db) => {
